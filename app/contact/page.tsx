@@ -33,7 +33,6 @@ export default function ContactPage() {
     company: "",
     phone: "",
     service: "",
-    budget: "",
     message: "",
     newsletter: false,
   })
@@ -304,37 +303,6 @@ export default function ContactPage() {
 
             {/* Contact Information */}
             <div className="space-y-8">
-              {/* Office Locations */}
-              <div>
-                <h3 className="text-2xl font-bold text-foreground mb-6">Our Offices</h3>
-                <div className="space-y-6">
-                  {offices.map((office, index) => (
-                    <Card key={index} className="border-border">
-                      <CardContent className="p-6">
-                        <div className="space-y-3">
-                          <div className="flex items-center space-x-2">
-                            <MapPin className="h-5 w-5 text-primary" />
-                            <h4 className="text-lg font-semibold text-foreground">{office.city}</h4>
-                          </div>
-                          <div className="space-y-2 text-sm text-muted-foreground">
-                            <p>{office.address}</p>
-                            <p>{office.zipcode}</p>
-                            <div className="flex items-center space-x-2">
-                              <Phone className="h-4 w-4" />
-                              <span>{office.phone}</span>
-                            </div>
-                            <div className="flex items-center space-x-2">
-                              <Clock className="h-4 w-4" />
-                              <span>{office.hours}</span>
-                            </div>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
-              </div>
-
               {/* FAQ */}
               <div>
                 <h3 className="text-2xl font-bold text-foreground mb-6">Quick Answers</h3>
