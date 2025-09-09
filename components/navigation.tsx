@@ -23,9 +23,9 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2"> 
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center"> 
-              <span className="text-primary-foreground font-bold text-lg">ADigitallife</span> 
+              <span className="text-primary-foreground font-bold text-lg">A</span> 
             </div> 
-            <span className="font-bold text-xl text-foreground"></span>Technology</Link>
+            <span className="font-bold text-xl text-foreground"></span>Digitallife Technology</Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
