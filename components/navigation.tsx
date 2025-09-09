@@ -23,7 +23,11 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">D</span>
+             <img
+      src="/lib/logo.png" // Replace with your actual logo path
+      alt="Logo"
+      className="w-full h-full object-contain"
+    />
             </div>
             <span className="font-bold text-xl text-foreground"></span>
           </Link>
