@@ -82,30 +82,6 @@ export default function ContactPage() {
     },
   ]
 
-  const offices = [
-    {
-      city: "New York",
-      address: "123 Business Ave, Suite 100",
-      zipcode: "New York, NY 10001",
-      phone: "+1 (555) 123-4567",
-      hours: "Mon-Fri: 9 AM - 6 PM EST",
-    },
-    {
-      city: "Los Angeles",
-      address: "456 Innovation Blvd, Floor 5",
-      zipcode: "Los Angeles, CA 90210",
-      phone: "+1 (555) 987-6543",
-      hours: "Mon-Fri: 9 AM - 6 PM PST",
-    },
-    {
-      city: "London",
-      address: "789 Digital Street, Suite 200",
-      zipcode: "London, UK EC1A 1BB",
-      phone: "+44 20 1234 5678",
-      hours: "Mon-Fri: 9 AM - 5 PM GMT",
-    },
-  ]
-
   const faqs = [
     {
       question: "How quickly can you start my project?",
@@ -284,21 +260,6 @@ export default function ContactPage() {
                               <SelectItem value="content">Content Marketing</SelectItem>
                               <SelectItem value="web">Web Development</SelectItem>
                               <SelectItem value="full">Full Service Package</SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className="space-y-2">
-                          <Label htmlFor="budget">Monthly Budget Range</Label>
-                          <Select onValueChange={(value) => handleInputChange("budget", value)}>
-                            <SelectTrigger>
-                              <SelectValue placeholder="Select budget range" />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="under-1k">Under $1,000</SelectItem>
-                              <SelectItem value="1k-5k">$1,000 - $5,000</SelectItem>
-                              <SelectItem value="5k-10k">$5,000 - $10,000</SelectItem>
-                              <SelectItem value="10k-25k">$10,000 - $25,000</SelectItem>
-                              <SelectItem value="25k-plus">$25,000+</SelectItem>
                             </SelectContent>
                           </Select>
                         </div>
