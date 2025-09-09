@@ -24,7 +24,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
              <img
-      src="/lib/logo (6).png" // Replace with your actual logo path
+      src="logo (6).png" // Replace with your actual logo path
       alt="Logo"
       className="w-full h-full object-contain"
     />
