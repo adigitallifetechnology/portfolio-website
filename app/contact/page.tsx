@@ -56,14 +56,14 @@ export default function ContactPage() {
       icon: Phone,
       title: "Call Us",
       description: "Speak directly with our team",
-      contact: "+1 (555) 123-4567",
+      contact: "+91-8837613270",
       action: "Call Now",
     },
     {
       icon: Mail,
       title: "Email Us",
       description: "Send us a detailed message",
-      contact: "hello@digitalpro.com",
+      contact: "adigitallifetechnology@gmail.com",
       action: "Send Email",
     },
     {
