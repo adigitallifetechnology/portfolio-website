@@ -10,9 +10,9 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">D</span>
+                <span className="text-primary-foreground font-bold text-lg">A</span>
               </div>
-              <span className="font-bold text-xl text-foreground">DigitalPro</span>
+              <span className="font-bold text-xl text-foreground">Digitallife Technology</span>
             </div>
             <p className="text-muted-foreground leading-relaxed">
               Transforming businesses through innovative digital marketing strategies and cutting-edge solutions.
