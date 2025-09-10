@@ -218,12 +218,12 @@ export default function ServicesPage() {
                     ))}
                   </ul>
 
-              <!--    <div className="border-t border-border pt-4">
+                  <div className="border-t border-border pt-4">
                     <div className="flex items-center justify-between mb-4">
                       <span className="text-lg font-semibold text-primary">{service.pricing}</span>
                     </div>
                     <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">Learn More</Button>
-                  </div> -->
+                  </div> 
                 </CardContent>
               </Card>
             ))}
