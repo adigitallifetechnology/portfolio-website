@@ -7,7 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "DigitalPro - Digital Marketing Services Portfolio",
+  title: "ADigitallife Technology",
   description:
     "Transform your business with innovative digital marketing strategies and cutting-edge solutions. SEO, Social Media, Content Marketing & more.",
   generator: "v0.app",
