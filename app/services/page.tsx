@@ -20,7 +20,7 @@ export default function ServicesPage() {
         "Local SEO for Businesses",
         "SEO Performance Tracking",
       ],
-      pricing: "Starting at $1,500/month",
+     // pricing: "Starting at $1,500/month",
       popular: false,
     },
     {
@@ -35,7 +35,7 @@ export default function ServicesPage() {
         "Influencer Partnerships",
         "Social Analytics & Reporting",
       ],
-      pricing: "Starting at $1,200/month",
+     // pricing: "Starting at $1,200/month",
       popular: true,
     },
     {
@@ -50,7 +50,7 @@ export default function ServicesPage() {
         "A/B Testing & Analytics",
         "Conversion Tracking Setup",
       ],
-      pricing: "Starting at $2,000/month",
+    //  pricing: "Starting at $2,000/month",
       popular: false,
     },
     {
@@ -65,7 +65,7 @@ export default function ServicesPage() {
         "Email Newsletter Content",
         "Content Performance Analysis",
       ],
-      pricing: "Starting at $1,800/month",
+      // pricing: "Starting at $1,800/month",
       popular: false,
     },
     {
@@ -80,7 +80,7 @@ export default function ServicesPage() {
         "CMS Integration",
         "Ongoing Maintenance",
       ],
-      pricing: "Starting at $5,000 one-time",
+    //  pricing: "Starting at $5,000 one-time",
       popular: false,
     },
     {
@@ -95,7 +95,7 @@ export default function ServicesPage() {
         "Monthly Reporting",
         "Strategic Recommendations",
       ],
-      pricing: "Starting at $800/month",
+    //  pricing: "Starting at $800/month",
       popular: false,
     },
   ]
